@@ -1,0 +1,37 @@
+body {
+  font-family: Arial;
+  background: linear-gradient(to right, #36d1dc, #5b86e5);
+  text-align: center;
+  padding: 40px;
+}
+
+h1 {
+  color: white;
+  margin-bottom: 30px;
+}
+
+table {
+  margin: auto;
+  border-collapse: collapse;
+  width: 90%;
+  background: white;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+th {
+  background: #4e73df;
+  color: white;
+  padding: 15px;
+}
+
+td {
+  padding: 15px;
+  border-bottom: 1px solid #ddd;
+}
+
+tr:hover {
+  background: #f1f1f1;
+  transition: 0.3s;
+}
