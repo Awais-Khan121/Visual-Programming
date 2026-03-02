@@ -1,0 +1,229 @@
+<!doctype html>
+<html>
+  <head>
+    <title>BSCS-IV-C (Shift-I)</title>
+
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 20px;
+        background: #ffffff;
+      }
+
+      h1 {
+        text-align: center;
+        margin-bottom: 20px;
+        font-weight: 600;
+      }
+
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        table-layout: fixed;
+      }
+
+      th,
+      td {
+        border: 1px solid #555;
+        text-align: center;
+        vertical-align: top;
+        padding: 8px 6px;
+        font-size: 12px;
+        word-wrap: break-word;
+      }
+
+      th {
+        background: #e6e6e6;
+        font-weight: bold;
+      }
+
+      .time small {
+        display: block;
+        font-size: 10px;
+        margin-top: 3px;
+      }
+
+      .day {
+        font-size: 24px;
+        font-weight: bold;
+        vertical-align: middle;
+      }
+
+      .subject {
+        margin-top: 4px;
+        font-size: 11px;
+      }
+
+      .room {
+        margin-top: 6px;
+        font-weight: bold;
+        font-size: 11px;
+      }
+
+      .lab {
+        font-size: 13px;
+        vertical-align: middle;
+      }
+
+      .footer {
+        margin-top: 10px;
+        font-size: 12px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1>BSCS-IV-C (Shift-I)</h1>
+
+    <table>
+      <tr>
+        <th>Air Uni</th>
+        <th class="time">07:45am-08:25am<small>7:45 - 8:25</small></th>
+        <th class="time">08:25am-09:05am<small>8:25 - 9:05</small></th>
+        <th class="time">09:05am-09:45am<small>9:05 - 9:45</small></th>
+        <th class="time">09:45am-10:25am<small>9:45 - 10:25</small></th>
+        <th class="time">10:25am-11:05am<small>10:25 - 11:05</small></th>
+        <th class="time">11:05am-11:45am<small>11:05 - 11:45</small></th>
+        <th class="time">11:45am-12:25pm<small>11:45 - 12:25</small></th>
+        <th class="time">12:25pm-01:05pm<small>12:25 - 1:05</small></th>
+      </tr>
+
+      <!-- Monday -->
+      <tr>
+        <td class="day">Mo</td>
+        <td>
+          HUM-Ms Saman Noor-VFM
+          <div class="subject">Civics and Community Engagement</div>
+          <div class="room">C-201 (Shift-I)</div>
+        </td>
+        <td>
+          CS-Dr Maryum Nisar
+          <div class="subject">Software Engineering</div>
+          <div class="room">C-301 (Shift-I)</div>
+        </td>
+        <td>
+          CS-Ms Romana Maroof
+          <div class="subject">Computer Organization and Assembly Language</div>
+          <div class="room">C-302 (Shift-I)</div>
+        </td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+
+      <!-- Tuesday -->
+      <tr>
+        <td class="day">Tu</td>
+        <td>
+          HUM-Ms Saman Noor-VFM
+          <div class="subject">Civics and Community Engagement</div>
+          <div class="room">C-303 (Shift-I)</div>
+        </td>
+        <td>
+          CS-Ms Sara Mishal
+          <div class="subject">Computer Networks</div>
+          <div class="room">C-303 (Shift-I)</div>
+        </td>
+        <td></td>
+        <td>
+          CS-Mr Hafiz Obaid ullah Khan
+          <div class="subject">Visual Programming</div>
+          <div class="room">C-304 (Shift-I)</div>
+        </td>
+        <td colspan="4" class="lab">
+          CS-Mr Hafiz Obaid ullah Khan<br />
+          Visual Programming Lab<br />
+          Lab 12 C Block (2nd Floor)
+        </td>
+      </tr>
+
+      <!-- Wednesday -->
+      <tr>
+        <td class="day">We</td>
+
+        <td>
+          Maths-Ms Sumaira Nadeem-VFM
+          <div class="subject">Multivariable Calculus</div>
+          <div class="room">C-305 (Shift-I)</div>
+        </td>
+
+        <td>
+          CS-Dr Maryum Nisar
+          <div class="subject">Software Engineering</div>
+          <div class="room">C-304 (Shift-I)</div>
+        </td>
+
+        <td>
+          CS-Mr Hafiz Obaid ullah Khan
+          <div class="subject">Visual Programming</div>
+          <div class="room">C-206 (Shift-I)</div>
+        </td>
+
+        <!-- Empty 4th slot (IMPORTANT FIX) -->
+        <td></td>
+
+        <!-- Lab from 10:25 onwards -->
+        <td colspan="4" class="lab">
+          CS-Mr Muhammad Bilal<br />
+          Computer Networks Lab<br />
+          Lab 12 C Block (2nd Floor)
+        </td>
+      </tr>
+      <!-- Thursday -->
+      <tr>
+        <td class="day">Th</td>
+        <td>
+          Maths-Ms Sumaira Nadeem-VFM
+          <div class="subject">Multivariable Calculus</div>
+          <div class="room">C-301 (Shift-I)</div>
+        </td>
+        <td>
+          CS-Mr Muhammad Bilal
+          <div class="subject">Advisory Class</div>
+          <div class="room">C-301 (Shift-I)</div>
+        </td>
+        <td>
+          CS-Ms Romana Maroof
+          <div class="subject">Computer Organization and Assembly Language</div>
+          <div class="room">C-205 (Shift-I)</div>
+        </td>
+        <td>
+          CS-Dr Maryum Nisar
+          <div class="subject">Software Engineering</div>
+          <div class="room">C-306 (Shift-I)</div>
+        </td>
+        <td colspan="4" class="lab">
+          CS-Ms Romana Maroof<br />
+          Computer Organization and Assembly Language Lab<br />
+          Lab 12 C Block (2nd Floor)
+        </td>
+      </tr>
+
+      <!-- Friday -->
+      <tr>
+        <td class="day">Fr</td>
+        <td></td>
+        <td>
+          Maths-Ms Sumaira Nadeem-VFM
+          <div class="subject">Multivariable Calculus</div>
+          <div class="room">C-202 (Shift-I)</div>
+        </td>
+        <td></td>
+        <td>
+          CS-Ms Sara Mishal
+          <div class="subject">Computer Networks</div>
+          <div class="room">C-303 (Shift-I)</div>
+        </td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+    </table>
+
+    <div class="footer">Timetable generated 2/18/2026</div>
+  </body>
+</html>
